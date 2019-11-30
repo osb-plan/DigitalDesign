@@ -7,7 +7,7 @@ BINPATH_GHDL=$(printenv BINPATH_GHDL);
 
 
 
-$BINPATH_GHDL/ghdl -a flip-flop.vhdl
+$BINPATH_GHDL/ghdl -a ../basic-lib/flip-flop.vhdl
 $BINPATH_GHDL/ghdl -a edge-sync.vhdl
 $BINPATH_GHDL/ghdl -a edge-sync-tb.vhdl
 

@@ -17,9 +17,9 @@ architecture beha of edge_sync is
     
     component ff_D is
         port(	
-                line_D : in std_logic;
+                lineD : in std_logic;
                 clk   : in std_logic;
-                line_Q : out std_logic
+                lineQ : out std_logic
         );
     end component ff_D;    
 
@@ -31,21 +31,21 @@ architecture beha of edge_sync is
 begin
 
    FFsrc  : ff_D port map (
-                  line_D => input_s,
+                  lineD => input_s,
                   clk => clk_src,
-                  line_Q => meta
+                  lineQ => meta
               ); 
 
    FFdst1 : ff_D port map(
-                  line_D => meta,
+                  lineD => meta,
                   clk   => clk_dst  ,
-                  line_Q => Q2_D3
+                  lineQ => Q2_D3
               );
    
    FFdst2 : ff_D port map(
-                  line_D => Q2_D3,
+                  lineD => Q2_D3,
                   clk   => clk_dst  ,
-                  line_Q => Q3
+                  lineQ => Q3
               );
 
 input_s <= data;
