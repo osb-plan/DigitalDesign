@@ -9,7 +9,7 @@ BINPATH_GHDL=$(printenv BINPATH_GHDL);
 $BINPATH_GHDL/ghdl -a pulse-sync.vhdl
 $BINPATH_GHDL/ghdl -a pulse-sync-tb.vhdl
 $BINPATH_GHDL/ghdl -a toggle-synchro.vhdl
-$BINPATH_GHDL/ghdl -a flip-flop.vhdl
+$BINPATH_GHDL/ghdl -a ../basic-lib/flip-flop.vhdl
 
 echo "Analyze done."
 
