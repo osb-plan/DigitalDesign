@@ -1,2 +1,2 @@
 # DigitalDesign
-Some Digital Design example and pratical project written in VHDL.
+This repo collects some Digital Design examples and pratical projects written in VHDL.
