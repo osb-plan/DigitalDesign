@@ -12,7 +12,7 @@ Each directory represents a single project in which you can find a bash script
 called compile\_and\_simulate.sh. 
 You need to provide the path of the ghdl compiler:
 
-> $ export BINPATH\_GHDL=<path-of-the-compiler-bin-directory>
+> $ export BINPATH\_GHDL=path-of-the-compiler-bin-directory
   
 Then go inside the directory of interest for example toggle-sync and run the sh script:
 > $ cd toggle-sync; ./compile\_and\_simulate
