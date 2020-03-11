@@ -21,4 +21,5 @@ This will run the compiler and in case it completes without error the compilatio
 you will see the waveform signals showed in the GtkWave application.
 
 
-
+# Credits
+The testbench for entities has been done by using some features of an on line testbench generator https://vhdl.lapinoo.net/testbench/
